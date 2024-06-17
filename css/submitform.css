@@ -1,0 +1,59 @@
+@media (orientation:portrait) {
+  body { background-color: yellow;}
+}
+
+@media (orientation:landscape) {
+  body { background-color: red;}
+}
+
+@media (min-width: 1024px) {
+  #wrap { transform: scale(1.1, 1.1); }
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  background-color: #efefef;
+}
+
+input, button, textarea {
+  border: 0.1em solid #0f0f0f;
+  border-radius: 2em;
+}
+
+textarea {
+  width: 25em;
+  height: 3em;
+  padding-left: 1em;
+  resize: none;
+}
+
+.menuinput {
+  width: 25em;
+  padding-left: 1em;
+  padding-bottom: 0.5em;
+  padding-top: 0.5em;
+}
+
+button {
+  margin: 1em;
+  width: 5em;
+}
+
+#wrap {
+  margin: auto;
+  margin-top: 2em;
+  width: 25em;
+  border: 0.1em solid #000000;
+  background-color: #dedede;
+  border-radius: 2em;
+}
+
+#submitbutton {
+  background-color: #00ff00;
+}
+
+#resetbutton {
+  background-color: #ff0000;
+  color: #ffffff;
+}

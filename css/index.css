@@ -1,0 +1,24 @@
+@media (min-width: 1024px) {
+  #wrap { transform: scale(1.1, 1.1); }
+}
+
+body {
+  margin: auto;
+  text-align: center;
+  background-color: #efefef;
+}
+
+button {
+  background-color: #000000;
+  color: #ffffff;
+  border-radius: 2em;
+}
+
+#wrap {
+  margin: auto;
+  margin-top: 2em;
+  width: 24em;
+  border: 0.1em solid #000000;
+  background-color: #dedede;
+  border-radius: 2em;
+}

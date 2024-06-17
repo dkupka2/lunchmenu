@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="submitform.css">
+  <title>Menu</title>
+</head>
+<body>
+  <div id="wrap">
+  <h1>Kitchen Menu Input</h1>
+  <h3>
+    <form action="/data" id="menuform" method="post">
+      <div class="menulist" id="monday">
+        monday<br />
+        <textarea name="monday" id="mondayinput"></textarea>
+      </div>
+      <div class="menulist" id="tuesday">
+        tuesday<br />
+        <textarea name="monday" id="tuesdayinput"></textarea>
+      </div>
+      <div class="menulist" id="wednesday">
+        wednesday<br />
+        <textarea name="wednesday" id="wednesdayinput"></textarea>
+      </div>
+      <div class="menulist" id="thursday">
+        thursday<br />
+        <textarea name="thursday" id="thursdayinput"></textarea>
+      </div>
+      <div class="menulist" id="friday">
+        friday<br />
+        <textarea name="friday" id="fridayinput"></textarea>
+      </div>
+      <button id="submitbutton" type="submit" onclick="submit">Submit</button>
+      <button id="resetbutton" type="reset">Reset</button>
+    </form>
+  </h3>
+</div>
+<br /><br />
+Created by Dan Kupka
+<script src="submitform.js"></script>
+</body>
+</html>
